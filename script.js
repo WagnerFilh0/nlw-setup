@@ -25,10 +25,3 @@ function save() {
 const data = JSON.parse(localStorage.getItem("NLWSetup@habits")) || {}
 nlwSetup.setData(data)
 nlwSetup.load()
-
-//Palavras chave
-//#Hábitos
-//#Comprometimento
-//#Aceleracao
-//#AnoNovo
-//
